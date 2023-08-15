@@ -10,4 +10,4 @@ clf = tree.DecisionTreeClassifier().fit(new_data, new_target)
 prediction = clf.predict(iris.data[removed])
 print("Original Labels:", iris.target[removed])
 print("Labels Predicted:", prediction)
-tree.plot_tree(clf
+tree.plot_tree(clf)
